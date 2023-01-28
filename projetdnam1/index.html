@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Immobiliere</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="home">
+        <nav>
+            <a href="" id="stop"><img class="logo" id="logo" src="images/Gestion.png"></a>
+            <header class="mobile-nav" id="mobile-nav">
+                <nav id="mainmenu">
+                    <ul>
+                        <li><a class="active" href="#"><i class="fa fa-fw fa-home"></i><label>Accueil</label></a></li>
+                        <li>
+                            <a href="#"><i class="fa fa-info-circle fa-info"></i><label>Informations</label></a>
+                        </li>
+                        <li>
+                            <a href="#" id="btn"><i class="fa fa-fw fa-search"></i><label>Recherche</label>
+                                <ul id="list">
+                                    <li>A vendre</li>
+                                    <li>A louer</li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i><label>Contact</label></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i><label>Login</label></a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#Apropos">A propos</a></li>
+                    <li><a href="#Avendre">A vendre</a></li>
+                    <li><a href="#Alouer">A louer</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Login">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-text">
+            <div class="text">
+                <div class="this">
+                    <h1 style="text-align:center;">GESTION IMMOBILIERE</h1>
+                    <p style="padding-top:1rem;padding-bottom:1rem;text-align:center;">
+                        Vous souhaitez trouver un bien rapidement, mais vous manquez de temps ou de compétences ?
+                        Notre équipe d’experts immobilier, de courtiers, de notaires, d’avocats, s’en occupe pour vous.
+                        Vous possédez un bien immobilier en location courte durée, et n’avez pas le temps pour prendre en
+                        main sa gestion ? Notre conciergerie se charge de tout.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="home1">
+        <div class="Apropos">
+            <div class="text">
+                <img src="images/ho.png" alt="" srcset="" class="image">
+                <div class="this">
+                    <h1 style="text-align:center;">A propos</h1>
+                    <p style="padding-top:1rem;padding-bottom:1rem;text-align:center;">
+                        Gestion est une entreprise de Recherches de Biens immobiliers, de Conciergerie Airbnb (et autres
+                        plateformes telles que Booking, Abritel ou Expedia) et d’Événementiel qui a vu le jour en 2019. Nous
+                        avions comme objectif de départ d’aider, de conseiller, et de rechercher des biens immobiliers pour
+                        des amis et des proches débordés et, dépassés par les aspects fastidieux et chronophages de la
+                        recherche et des visites de biens,
+                    </p>
+    
+                    <a href=""><button style="display: block; margin: auto;">Savoir Plus</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="services">
+        <h1>Nos Services</h1>
+        <p>Nous vous accompagnons tout au long de votre parcours d'invertisseur</p>
+    
+        <div class="row">
+            <div class="col">
+                <div class="left-container">
+                    <img src="images/rech.png" class="img">
+                    <h3>Recherche de biens immobiliers</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="right-container">
+                    <img src="images/ver.png" class="img">
+                    <h3>Vérification et validation de vos transactions</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="left-container">
+                    <img src="images/clean.png" class="img">
+                    <h3>Aménagement et décoration d’intérieur</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="right-container">
+                    <img src="images/gestiondeloc.png" class="img">
+                    <h3>Gestion de vos locations</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="left-container">
+                    <img src="images/notification.png" class="img">
+                    <h3>Organisation de vos événements</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="right-container">
+                    <img src="images/megaphone.png" class="img">
+                    <h3>Location de vos logements</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="contact">
+        <div class="form" id="contact-col">
+            <div class="contact-info">
+                <h1 style="text-align:center;">Contact</h1>
+                <h2>Vous pouvez nous contacter :</h2>
+                <ul>
+                    <li>Par téléphone au <a href="https://wa.me/0612345678">06-12-34-56-78</a></li>
+                    <li>Par email à <a href="mailto:contact@gestionimmobiliere.fr">contact@gestionimmobiliere.fr</a>
+                        </contact>
+                    </li>
+                    <li>Via notre formulaire de contact sur notre site web</li>
+                </ul>
+            </div>
+            <form action="grec.php" method="POST">
+                <input type="text" name="nom" placeholder="Nom">
+                <input type="text" name="prenom" placeholder="Prenom">
+                <input type="text" name="mail" placeholder="Email">
+                <input type="text" name="tele" placeholder="Telephone">
+                <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <button>Envoyez</button>
+            </form>
+        </div>
+        <div class="map" id="contact-col">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13350.280986763686!2d-8.494937769233093!3d33.22536109342131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda91e1d173ae243%3A0x4fa699b9874f3eab!2sFacult%C3%A9%20des%20Sciences%20el%20Jadida!5e0!3m2!1sfr!2sma!4v1673600687100!5m2!1sfr!2sma"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div id="footer-info">
+            <div class="footer-col">
+                <h2>Contact</h2>
+                <ul>
+                    <li>Adresse<br>12 rue des immeubles, 75000 Paris</li>
+                    <li>Email<br><a href="mailto:contact@gestionimmobiliere.fr">contact@agenceimmobiliere.com</a></li>
+                    <li>Téléphone<br><a href="https://wa.me/0612345678">01 23 45 67 89</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Services</h2>
+                <ul>
+                    <li>Achat / vente de biens immobiliers</li>
+                    <li>Location de biens immobiliers</li>
+                    <li>Gestion locative</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Réseaux sociaux</h2>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer-copyright">
+            <p>Copyright © 2021 Agence Immobilière</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/bottomnav.js"></script>
+</body>
+</html>
